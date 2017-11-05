@@ -1,15 +1,22 @@
-/*Responsive breakpoint mixin start*/
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+};
 
+/*Responsive breakpoint mixin start*/
 @mixin bp($name) {
   @if $name == sml {
     @media (min-width: $smlBP) {@content}
-  }	
+  }
   @else if $name == med {
     @media (min-width: $medBP) {@content}
   }
   @else if $name == large {
     @media (min-width: $largeBP) {@content}
   }
-}
+};
 
-/*Responsive breakpoint mixin end */
+// Responsive breakpoint mixin end

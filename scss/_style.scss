@@ -142,7 +142,7 @@
 		}
 		h2 {margin-top: 60px;}
 		.heroBand {
-			width: 95%;
+			// width: 95%;
 			text-align: center;
 			position: relative;
 			margin: 10px auto;
@@ -187,7 +187,7 @@
 				}
 				&.open .infoWrap {
 					margin: 2% auto 0;
-					p {	
+					p {
 						font-size: 0.9rem;
 						@include bp(sml) {
 							font-size: 1.2rem;
@@ -212,7 +212,7 @@
 		.infoWrap {
 			.button {
 				max-width:250px;
-				
+
 			}
 		}
 	}
@@ -267,7 +267,7 @@
 		.btn:hover {
 		  text-decoration: none;
 		}
-		
+
 /*
 		.btn:focus {
 			color: red;
@@ -277,7 +277,7 @@
 		}
 */
 	}
-	.lineUp {  
+	.lineUp {
 		max-width:1200px;
 		padding: 30px;
 	    background: $yellow;
@@ -289,11 +289,11 @@
 		    font-size: 1.6rem;
 		    padding-bottom: 15px;
 		    border-bottom: 4px solid #333;
-		    font-weight: 600; 
+		    font-weight: 600;
 	    }
 	    h4 {
 		    font-size: 1.6rem;
-		    font-weight: 600; 
+		    font-weight: 600;
 		    padding: 30px 0 0px;
 	    }
 	    p {
@@ -348,7 +348,7 @@
 				.question {
 					cursor: pointer;
 					padding:10px 0 10px 5px;
-					border-bottom: 2px solid $darkGrey;		
+					border-bottom: 2px solid $darkGrey;
 					@include bp(med) {
 						padding: 10px;
 					}
@@ -378,29 +378,29 @@
 						line-height: 18px;
 						@include bp(sml) {
 							vertical-align: inherit;
-						} 
+						}
 						&.rotateOpen {
-						    -ms-transform: rotate(0deg); 
-						    -webkit-transform: rotate(0deg); 
+						    -ms-transform: rotate(0deg);
+						    -webkit-transform: rotate(0deg);
 						    transform: rotate(0deg);
 						}
 						&.rotateClose {
-						    -ms-transform: rotate(90deg); 
-						    -webkit-transform: rotate(90deg); 
+						    -ms-transform: rotate(90deg);
+						    -webkit-transform: rotate(90deg);
 						    transform: rotate(90deg);
 						}
 					}
 					.faq {
 						font-size:1.2rem;
 					}
-					p {	
+					p {
 						font-size:0.9rem;
 						@include bp(sml) {
 							font-size:1rem;
-						} 
+						}
 						&.closed {
-							display: none;	
-						}				
+							display: none;
+						}
 					}
 				}
 			}
@@ -466,9 +466,9 @@
 	padding: 80px 0 80px;
 	.videoSection {
 		margin: 0 auto;
-		padding: 40px 0 0px; 
+		padding: 40px 0 0px;
 		@include bp(med) {
-			padding: 80px 0 0px; 
+			padding: 80px 0 0px;
 		}
 		.innerWrap {
 			margin: 0px auto 0px;
@@ -515,12 +515,3 @@
 /*************************
 	video
 *************************/
-
-
-
-
-
-
-
-
-
