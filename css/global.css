@@ -630,6 +630,9 @@
 .green {
   background: green; }
 
+.blue {
+  background: blue; }
+
 /*************************
 	home page
 *************************/
@@ -1715,5 +1718,3 @@ input {
 
 .no-scroll {
   overflow: hidden; }
-
-/*# sourceMappingURL=global.css.map */
