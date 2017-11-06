@@ -232,8 +232,7 @@
   width: calc((100% / 12 * 1) - 15px); }
   .col-1-sml.center {
     float: none;
-    margin: 7.5px auto;
-    text-align: center; }
+    margin: 7.5px auto; }
   .col-1-sml.center-item {
     float: none;
     margin: 7.5px auto;
@@ -243,8 +242,7 @@
   width: calc((100% / 12 * 2) - 15px); }
   .col-2-sml.center {
     float: none;
-    margin: 7.5px auto;
-    text-align: center; }
+    margin: 7.5px auto; }
   .col-2-sml.center-item {
     float: none;
     margin: 7.5px auto;
@@ -254,8 +252,7 @@
   width: calc((100% / 12 * 3) - 15px); }
   .col-3-sml.center {
     float: none;
-    margin: 7.5px auto;
-    text-align: center; }
+    margin: 7.5px auto; }
   .col-3-sml.center-item {
     float: none;
     margin: 7.5px auto;
@@ -265,8 +262,7 @@
   width: calc((100% / 12 * 4) - 15px); }
   .col-4-sml.center {
     float: none;
-    margin: 7.5px auto;
-    text-align: center; }
+    margin: 7.5px auto; }
   .col-4-sml.center-item {
     float: none;
     margin: 7.5px auto;
@@ -276,8 +272,7 @@
   width: calc((100% / 12 * 5) - 15px); }
   .col-5-sml.center {
     float: none;
-    margin: 7.5px auto;
-    text-align: center; }
+    margin: 7.5px auto; }
   .col-5-sml.center-item {
     float: none;
     margin: 7.5px auto;
@@ -287,8 +282,7 @@
   width: calc((100% / 12 * 6) - 15px); }
   .col-6-sml.center {
     float: none;
-    margin: 7.5px auto;
-    text-align: center; }
+    margin: 7.5px auto; }
   .col-6-sml.center-item {
     float: none;
     margin: 7.5px auto;
@@ -298,8 +292,7 @@
   width: calc((100% / 12 * 7) - 15px); }
   .col-7-sml.center {
     float: none;
-    margin: 7.5px auto;
-    text-align: center; }
+    margin: 7.5px auto; }
   .col-7-sml.center-item {
     float: none;
     margin: 7.5px auto;
@@ -309,8 +302,7 @@
   width: calc((100% / 12 * 8) - 15px); }
   .col-8-sml.center {
     float: none;
-    margin: 7.5px auto;
-    text-align: center; }
+    margin: 7.5px auto; }
   .col-8-sml.center-item {
     float: none;
     margin: 7.5px auto;
@@ -320,8 +312,7 @@
   width: calc((100% / 12 * 9) - 15px); }
   .col-9-sml.center {
     float: none;
-    margin: 7.5px auto;
-    text-align: center; }
+    margin: 7.5px auto; }
   .col-9-sml.center-item {
     float: none;
     margin: 7.5px auto;
@@ -331,8 +322,7 @@
   width: calc((100% / 12 * 10) - 15px); }
   .col-10-sml.center {
     float: none;
-    margin: 7.5px auto;
-    text-align: center; }
+    margin: 7.5px auto; }
   .col-10-sml.center-item {
     float: none;
     margin: 7.5px auto;
@@ -342,8 +332,7 @@
   width: calc((100% / 12 * 11) - 15px); }
   .col-11-sml.center {
     float: none;
-    margin: 7.5px auto;
-    text-align: center; }
+    margin: 7.5px auto; }
   .col-11-sml.center-item {
     float: none;
     margin: 7.5px auto;
@@ -353,8 +342,7 @@
   width: calc((100% / 12 * 12) - 15px); }
   .col-12-sml.center {
     float: none;
-    margin: 7.5px auto;
-    text-align: center; }
+    margin: 7.5px auto; }
   .col-12-sml.center-item {
     float: none;
     margin: 7.5px auto;
@@ -365,8 +353,7 @@
     width: calc((100% / 12 * 1) - 15px); }
     .col-1-med.center {
       float: none;
-      margin: 7.5px auto;
-      text-align: center; }
+      margin: 7.5px auto; }
     .col-1-med.center-item {
       float: none;
       margin: 7.5px auto;
@@ -376,8 +363,7 @@
     width: calc((100% / 12 * 2) - 15px); }
     .col-2-med.center {
       float: none;
-      margin: 7.5px auto;
-      text-align: center; }
+      margin: 7.5px auto; }
     .col-2-med.center-item {
       float: none;
       margin: 7.5px auto;
@@ -387,8 +373,7 @@
     width: calc((100% / 12 * 3) - 15px); }
     .col-3-med.center {
       float: none;
-      margin: 7.5px auto;
-      text-align: center; }
+      margin: 7.5px auto; }
     .col-3-med.center-item {
       float: none;
       margin: 7.5px auto;
@@ -398,8 +383,7 @@
     width: calc((100% / 12 * 4) - 15px); }
     .col-4-med.center {
       float: none;
-      margin: 7.5px auto;
-      text-align: center; }
+      margin: 7.5px auto; }
     .col-4-med.center-item {
       float: none;
       margin: 7.5px auto;
@@ -409,8 +393,7 @@
     width: calc((100% / 12 * 5) - 15px); }
     .col-5-med.center {
       float: none;
-      margin: 7.5px auto;
-      text-align: center; }
+      margin: 7.5px auto; }
     .col-5-med.center-item {
       float: none;
       margin: 7.5px auto;
@@ -420,8 +403,7 @@
     width: calc((100% / 12 * 6) - 15px); }
     .col-6-med.center {
       float: none;
-      margin: 7.5px auto;
-      text-align: center; }
+      margin: 7.5px auto; }
     .col-6-med.center-item {
       float: none;
       margin: 7.5px auto;
@@ -442,8 +424,7 @@
     width: calc((100% / 12 * 8) - 15px); }
     .col-8-med.center {
       float: none;
-      margin: 7.5px auto;
-      text-align: center; }
+      margin: 7.5px auto; }
     .col-8-med.center-item {
       float: none;
       margin: 7.5px auto;
@@ -453,8 +434,7 @@
     width: calc((100% / 12 * 9) - 15px); }
     .col-9-med.center {
       float: none;
-      margin: 7.5px auto;
-      text-align: center; }
+      margin: 7.5px auto; }
     .col-9-med.center-item {
       float: none;
       margin: 7.5px auto;
@@ -464,8 +444,7 @@
     width: calc((100% / 12 * 10) - 15px); }
     .col-10-med.center {
       float: none;
-      margin: 7.5px auto;
-      text-align: center; }
+      margin: 7.5px auto; }
     .col-10-med.center-item {
       float: none;
       margin: 7.5px auto;
@@ -475,8 +454,7 @@
     width: calc((100% / 12 * 11) - 15px); }
     .col-11-med.center {
       float: none;
-      margin: 7.5px auto;
-      text-align: center; }
+      margin: 7.5px auto; }
     .col-11-med.center-item {
       float: none;
       margin: 7.5px auto;
@@ -486,8 +464,7 @@
     width: calc((100% / 12 * 12) - 15px); }
     .col-12-med.center {
       float: none;
-      margin: 7.5px auto;
-      text-align: center; }
+      margin: 7.5px auto; }
     .col-12-med.center-item {
       float: none;
       margin: 7.5px auto;
@@ -497,8 +474,7 @@
     width: calc((100% / 12 * 1) - 15px); }
     .col-1-lrg.center {
       float: none;
-      margin: 7.5px auto;
-      text-align: center; }
+      margin: 7.5px auto; }
     .col-1-lrg.center-item {
       float: none;
       margin: 7.5px auto;
@@ -508,8 +484,7 @@
     width: calc((100% / 12 * 2) - 15px); }
     .col-2-lrg.center {
       float: none;
-      margin: 7.5px auto;
-      text-align: center; }
+      margin: 7.5px auto; }
     .col-2-lrg.center-item {
       float: none;
       margin: 7.5px auto;
@@ -519,8 +494,7 @@
     width: calc((100% / 12 * 3) - 15px); }
     .col-3-lrg.center {
       float: none;
-      margin: 7.5px auto;
-      text-align: center; }
+      margin: 7.5px auto; }
     .col-3-lrg.center-item {
       float: none;
       margin: 7.5px auto;
@@ -530,8 +504,7 @@
     width: calc((100% / 12 * 4) - 15px); }
     .col-4-lrg.center {
       float: none;
-      margin: 7.5px auto;
-      text-align: center; }
+      margin: 7.5px auto; }
     .col-4-lrg.center-item {
       float: none;
       margin: 7.5px auto;
@@ -541,8 +514,7 @@
     width: calc((100% / 12 * 5) - 15px); }
     .col-5-lrg.center {
       float: none;
-      margin: 7.5px auto;
-      text-align: center; }
+      margin: 7.5px auto; }
     .col-5-lrg.center-item {
       float: none;
       margin: 7.5px auto;
@@ -552,8 +524,7 @@
     width: calc((100% / 12 * 6) - 15px); }
     .col-6-lrg.center {
       float: none;
-      margin: 7.5px auto;
-      text-align: center; }
+      margin: 7.5px auto; }
     .col-6-lrg.center-item {
       float: none;
       margin: 7.5px auto;
@@ -563,8 +534,7 @@
     width: calc((100% / 12 * 7) - 15px); }
     .col-7-lrg.center {
       float: none;
-      margin: 7.5px auto;
-      text-align: center; }
+      margin: 7.5px auto; }
     .col-7-lrg.center-item {
       float: none;
       margin: 7.5px auto;
@@ -574,8 +544,7 @@
     width: calc((100% / 12 * 8) - 15px); }
     .col-8-lrg.center {
       float: none;
-      margin: 7.5px auto;
-      text-align: center; }
+      margin: 7.5px auto; }
     .col-8-lrg.center-item {
       float: none;
       margin: 7.5px auto;
@@ -585,8 +554,7 @@
     width: calc((100% / 12 * 9) - 15px); }
     .col-9-lrg.center {
       float: none;
-      margin: 7.5px auto;
-      text-align: center; }
+      margin: 7.5px auto; }
     .col-9-lrg.center-item {
       float: none;
       margin: 7.5px auto;
@@ -596,8 +564,7 @@
     width: calc((100% / 12 * 10) - 15px); }
     .col-10-lrg.center {
       float: none;
-      margin: 7.5px auto;
-      text-align: center; }
+      margin: 7.5px auto; }
     .col-10-lrg.center-item {
       float: none;
       margin: 7.5px auto;
@@ -607,8 +574,7 @@
     width: calc((100% / 12 * 11) - 15px); }
     .col-11-lrg.center {
       float: none;
-      margin: 7.5px auto;
-      text-align: center; }
+      margin: 7.5px auto; }
     .col-11-lrg.center-item {
       float: none;
       margin: 7.5px auto;
@@ -618,8 +584,7 @@
     width: calc((100% / 12 * 12) - 15px); }
     .col-12-lrg.center {
       float: none;
-      margin: 7.5px auto;
-      text-align: center; }
+      margin: 7.5px auto; }
     .col-12-lrg.center-item {
       float: none;
       margin: 7.5px auto;
@@ -875,10 +840,8 @@
     #lineUp .toolbar .btn:hover {
       text-decoration: none; }
   #lineUp .lineUp {
-    max-width: 1200px;
     padding: 30px;
     background: #f0e234;
-    width: 96%;
     margin: 0 auto;
     color: #333;
     text-transform: uppercase; }
@@ -907,80 +870,60 @@
 	FAQs
 *************************/
 #faq {
-  background: #4a494a;
-  padding: 20px 0 0; }
-  #faq .faqSection {
-    margin: auto;
-    padding: 5px 0;
-    background: #fff;
-    border-bottom: 4px solid #f0e234;
-    color: #1a1919; }
+  padding: 20px 0 0;
+  border-bottom: 4px solid #f0e234;
+  color: #1a1919; }
+
+.infoWrap .question {
+  cursor: pointer;
+  padding: 20px 5px 20px;
+  border-bottom: 2px solid #1a1919; }
+  @media (min-width: 840px) {
+    .infoWrap .question {
+      padding: 20px 0 10px; } }
+  .infoWrap .question h4 {
+    font-size: 1rem;
+    display: inline-block;
+    padding-right: 5px;
+    font-weight: 600;
+    width: 90%;
+    vertical-align: top; }
+    @media (min-width: 460px) {
+      .infoWrap .question h4 {
+        vertical-align: inherit;
+        width: inherit;
+        font-size: 1.1rem;
+        padding-right: 10px; } }
     @media (min-width: 840px) {
-      #faq .faqSection {
-        padding: 20px 0; } }
-    #faq .faqSection .innerWrap {
-      max-width: 1200px;
-      width: 100%;
-      margin: 20px auto;
-      text-align: left;
-      padding: 0; }
-      @media (min-width: 460px) {
-        #faq .faqSection .innerWrap {
-          width: 95%;
-          padding: 0 15px; } }
-      @media (min-width: 840px) {
-        #faq .faqSection .innerWrap {
-          margin: 60px auto; } }
-      #faq .faqSection .innerWrap .infoWrap .question {
-        cursor: pointer;
-        padding: 10px 0 10px 5px;
-        border-bottom: 2px solid #1a1919; }
-        @media (min-width: 840px) {
-          #faq .faqSection .innerWrap .infoWrap .question {
-            padding: 10px; } }
-        #faq .faqSection .innerWrap .infoWrap .question h4 {
-          font-size: 1rem;
-          display: inline-block;
-          padding-right: 5px;
-          font-weight: 600;
-          width: 90%;
-          vertical-align: top; }
-          @media (min-width: 460px) {
-            #faq .faqSection .innerWrap .infoWrap .question h4 {
-              vertical-align: inherit;
-              width: inherit;
-              font-size: 1.1rem;
-              padding-right: 10px; } }
-          @media (min-width: 840px) {
-            #faq .faqSection .innerWrap .infoWrap .question h4 {
-              font-size: 1.2rem; } }
-        #faq .faqSection .innerWrap .infoWrap .question span.icon {
-          font-size: 0.9rem;
-          display: inline-block;
-          transition: 0.3s;
-          -webkit-transition: 0.3s;
-          vertical-align: middle;
-          line-height: 18px; }
-          @media (min-width: 460px) {
-            #faq .faqSection .innerWrap .infoWrap .question span.icon {
-              vertical-align: inherit; } }
-          #faq .faqSection .innerWrap .infoWrap .question span.icon.rotateOpen {
-            -ms-transform: rotate(0deg);
-            -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-          #faq .faqSection .innerWrap .infoWrap .question span.icon.rotateClose {
-            -ms-transform: rotate(90deg);
-            -webkit-transform: rotate(90deg);
-            transform: rotate(90deg); }
-        #faq .faqSection .innerWrap .infoWrap .question .faq {
-          font-size: 1.2rem; }
-        #faq .faqSection .innerWrap .infoWrap .question p {
-          font-size: 0.9rem; }
-          @media (min-width: 460px) {
-            #faq .faqSection .innerWrap .infoWrap .question p {
-              font-size: 1rem; } }
-          #faq .faqSection .innerWrap .infoWrap .question p.closed {
-            display: none; }
+      .infoWrap .question h4 {
+        font-size: 1.2rem; } }
+  .infoWrap .question span.icon {
+    font-size: 0.9rem;
+    display: inline-block;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    vertical-align: middle;
+    line-height: 18px; }
+    @media (min-width: 460px) {
+      .infoWrap .question span.icon {
+        vertical-align: inherit; } }
+    .infoWrap .question span.icon.rotateOpen {
+      -ms-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg); }
+    .infoWrap .question span.icon.rotateClose {
+      -ms-transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg); }
+  .infoWrap .question .faq {
+    font-size: 1.2rem; }
+  .infoWrap .question p {
+    font-size: 0.9rem; }
+    @media (min-width: 460px) {
+      .infoWrap .question p {
+        font-size: 1rem; } }
+    .infoWrap .question p.closed {
+      display: none; }
 
 /*************************
 	FAQs ends
@@ -1247,11 +1190,6 @@ h1, h2, h3, h4, h5, h6, p, a, img {
     h1, h2, h3, h4, h5, h6, p, a, img {
       margin-bottom: 20px; } }
 
-/*
-span.boldText {
-	font-weight: 800;
-}
-*/
 .boldText {
   font-weight: 800; }
 
