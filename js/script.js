@@ -7,10 +7,10 @@ $('.navTrigger').click(function() {
 		$('.bar').addClass('cross');
 		$('nav').stop().animate({
 			top: 0
-		},600).promise().done(function() {
+		}, 600).promise().done(function() {
 			$('body').css({
 				height: $(window).height(),
-// 				overflow: 'hidden',
+				// 				overflow: 'hidden',
 				position: 'fixed',
 			});
 		});
@@ -28,8 +28,8 @@ $('.navTrigger').click(function() {
 function resetNav($this) {
 	$('body').removeAttr('style');
 	$('.navTrigger').removeClass('open');
-	$('.bar').removeClass('cross');	
-	$('nav').removeAttr('style').promise().done(function () { 
+	$('.bar').removeClass('cross');
+	$('nav').removeAttr('style').promise().done(function() {
 		setTimeout(function() {
 			$this.siblings("a")[0].click();
 		}, 400);
@@ -37,10 +37,9 @@ function resetNav($this) {
 }
 
 
-$('nav a').click(function(){
+$('nav a').click(function() {
 	resetNav($(this));
 });
-
 
 
 
@@ -98,7 +97,7 @@ document.addEventListener("touchstart", function() {}, true);
 $(function() {
 	var selectedClass;
 	$(".fil-cat").click(function() {
-		$(this).parent('.toolbar').find('.fil-cat').css({
+		$(this).parent('.cat-selector').find('.fil-cat').css({
 			'backgroundColor': 'transparent',
 			'color': '#f0e234'
 		});

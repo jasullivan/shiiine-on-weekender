@@ -9,7 +9,7 @@
 }
 [class^="col-"] {
 	float: left;
-  margin: 7.5px;
+  	margin: 7.5px;
 	&.swapRight {
 		float: right;
 	}
@@ -23,7 +23,7 @@
   @include clearfix;
 }
 
-// small
+/*// small*/
 .col-1-sml {
   width: calc((100% / 12 * 1) - 15px);
 	&.center {
@@ -168,9 +168,9 @@
 		display: inline-block;
 	}
 }
-// small ends
+/*// small ends*/
 
-// medium
+/*// medium*/
 @include bp(med) {
 	.col-1-med {
 	  width: calc((100% / 12 * 1) - 15px);
@@ -318,9 +318,9 @@
 		}
 	}
 }
-// medium ends
+/*// medium ends*/
 
-// large
+/*// large*/
 @include bp(large) {
 	.col-1-lrg {
 	  width: calc((100% / 12 * 1) - 15px);
@@ -467,7 +467,7 @@
 		}
 	}
 }
-// large ends
+/*// large ends*/
 .red {
 	background:red;
 }
