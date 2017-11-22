@@ -126,7 +126,7 @@
 		cursor: pointer;
 		h2 {
 			margin: 6% auto 0%;
-			font-size: 1.6rem;
+			font-size: 1.4rem;
 			@include bp(sml) {
 				font-size: 2rem;
 			}
@@ -138,16 +138,29 @@
 			}
 		}
 		&.closed {
-			bottom: -75%;
+			bottom: 0%;
 			@include bp(med) {
 				bottom: -74%;
+			}
+		}
+		&.closed .infoWrap {
+			width: 80%;
+			margin: 2% auto;
+			@include bp(sml) {
+				margin: 8% auto 0;
+			}
+			@include bp(med) {
+				width: 95%;
 			}
 		}
 		&.open {
 			bottom: 0px;
 		}
-		&.open .infoWrap {
-			margin: 2% auto 0;
+		.infoWrap {
+			margin: 0 auto;
+			@include bp(sml) {
+				margin: 2% auto 0;
+			}
 			p {
 				font-size: 0.9rem;
 				@include bp(sml) {
@@ -162,8 +175,6 @@
 			}
 		}
 		.infoWrap {
-			width: 80%;
-			margin: 8% auto 0;
 			@include bp(med) {
 				width: 95%;
 			}
@@ -173,7 +184,6 @@
 .infoWrap {
 	.button {
 		max-width:250px;
-
 	}
 }
 /*************************

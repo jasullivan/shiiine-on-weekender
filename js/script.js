@@ -35,14 +35,25 @@ function resetNav($this) {
 		}, 400);
 	});
 }
-
-
 $('nav a').click(function() {
 	resetNav($(this));
 });
-
-
-
+// homepage scoll to bands
+$('a[href^="#"]').click(function(e) {
+	var id = $(this).attr('href');
+	var $id = $(id);
+	if ($id.length === 0) {
+		return;
+	}
+	// prevent standard hash navigation (avoid blinking in IE)
+	e.preventDefault();
+	// top position relative to the document
+	var pos = $id.offset().top;
+	// animated top scrolling
+	$('body, html').stop().animate({
+		scrollTop: pos
+	}, "slow");
+});
 // FAQs
 $('.question').each(function() {
 	$(this).click(function() {
