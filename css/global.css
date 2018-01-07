@@ -1,6 +1,5 @@
 /** ///////////// - global import - start - ///////////// */
 /** ///////////// - fonts.scss - start - ///////////// */
-/** // Good dog font */
 /** // Icon font */
 @import url("https://fonts.googleapis.com/css?family=PT+Sans");
 @font-face {
@@ -620,13 +619,9 @@
   padding-top: 80px;
   background: url(../img/hero_image_4.jpg) no-repeat center center;
   background-size: cover;
-  background-attachment: scroll;
   width: 100%;
   height: 100vh;
   border-bottom: 4px solid #f0e234; }
-  @media (min-width: 460px) {
-    .heroImage {
-      padding-top: 100px; } }
   @media (min-width: 840px) {
     .heroImage {
       background: url(../img/hero_image.jpg) no-repeat center center;
@@ -635,26 +630,25 @@
   @media (min-width: 1040px) {
     .heroImage {
       background-attachment: fixed; } }
-
-.heroImage span.icon-arrowDown {
-  background: #fff;
-  border-radius: 50%;
-  padding: 8px 5px 2px;
-  color: #1a1919;
-  font-size: 1.5rem;
-  position: absolute;
-  bottom: 15px;
-  left: calc(50% - 17px); }
-.heroImage .innerWrap {
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  margin: 0 auto;
-  color: #fff;
-  top: 25%; }
-  @media (min-width: 460px) {
-    .heroImage .innerWrap {
-      top: 30%; } }
+  .heroImage span.icon-arrowDown {
+    background: #fff;
+    border-radius: 50%;
+    padding: 8px 5px 2px;
+    color: #1a1919;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 15px;
+    left: calc(50% - 17px); }
+  .heroImage .innerWrap {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    top: 25%; }
+    @media (min-width: 460px) {
+      .heroImage .innerWrap {
+        top: 30%; } }
 
 .heroTitle img {
   width: 80%; }
@@ -742,17 +736,16 @@
         .heroBand .bandInnerWrap.closed {
           bottom: -74%; } }
     .heroBand .bandInnerWrap.closed .infoWrap {
-      width: 80%;
+      width: 95%;
       margin: 2% auto; }
-      @media (min-width: 460px) {
-        .heroBand .bandInnerWrap.closed .infoWrap {
-          margin: 8% auto 0; } }
       @media (min-width: 840px) {
         .heroBand .bandInnerWrap.closed .infoWrap {
-          width: 95%; } }
+          width: 95%;
+          margin: 8% auto 0; } }
     .heroBand .bandInnerWrap.open {
       bottom: 0px; }
     .heroBand .bandInnerWrap .infoWrap {
+      width: 95%;
       margin: 0 auto; }
       @media (min-width: 460px) {
         .heroBand .bandInnerWrap .infoWrap {
@@ -779,7 +772,7 @@
 	home page ends
 *************************/
 /*************************
-	generic page hero image
+	generic sub-page hero image
 *************************/
 .heroSection .short {
   position: relative;
@@ -804,7 +797,7 @@
           font-size: 3rem; } }
 
 /*************************
-generic page hero image ends
+generic sub-page hero image ends
 *************************/
 /*************************
 	line up
@@ -828,7 +821,7 @@ generic page hero image ends
       cursor: pointer;
       display: inline-block;
       line-height: normal;
-      padding: .5rem 2rem;
+      padding: 0.5rem 2rem;
       margin: 5px 8px;
       height: auto;
       border: 1px solid #f0e234;
@@ -1020,151 +1013,10 @@ generic page hero image ends
 /*************************
 	video
 *************************/
-/****************
- how much to pay
-****************/
-input[type="text"] {
-  border: 1px solid #999999;
-  color: #031545;
-  font-size: 1rem;
-  padding: 10px;
-  font-weight: 800;
-  overflow: visible; }
-
-.inputAmount div {
-  display: inline; }
-  .inputAmount div p {
-    display: block; }
-    @media (min-width: 840px) {
-      .inputAmount div p {
-        display: inline; } }
-    .inputAmount div p input {
-      width: 35%;
-      height: 44px;
-      padding: 5px; }
-      .inputAmount div p input:last-child {
-        width: 30%; }
-      @media (min-width: 460px) {
-        .inputAmount div p input {
-          width: 30%; }
-          .inputAmount div p input:last-child {
-            width: 25%; } }
-      @media (min-width: 840px) {
-        .inputAmount div p input {
-          width: 25%; }
-          .inputAmount div p input:last-child {
-            width: 20%; } }
-
-/*******************
-credit card details
-*******************/
-.desc {
-  font-size: 0.85rem;
-  line-height: 170%;
-  padding: 10px 0px 10px 0px; }
-  @media (min-width: 460px) {
-    .desc {
-      font-size: 0.9rem; } }
-  @media (min-width: 1040px) {
-    .desc {
-      font-size: 1rem;
-      padding: 10px 10px 10px 0px; } }
-
-.inputWrap {
-  display: table-cell;
-  vertical-align: middle; }
-
-.inputWrap input {
-  /*width: calc(100% - 160px);*/
-  /*position: relative;*/
-  background: #fff;
-  border-radius: 2px;
-  overflow: hidden;
-  float: left;
-  /*display: table-cell;
-  vertical-align: middle;*/
-  padding: 12px;
-  /*line-height: 150%; */ }
-
-.selectWrap {
-  /*width: calc(50% - 160px);*/
-  position: relative;
-  background: #fff;
-  border-radius: 2px;
-  overflow: hidden;
-  cursor: pointer;
-  /*float: left;*/
-  display: inline-block;
-  	/*  display: table-cell;
-      vertical-align: middle;*/
-  line-height: 44px;
-  height: 44px; }
-  .selectWrap .fieldIcon {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 14px 13px 14px 12px;
-    background: #fff;
-    color: #031545;
-    pointer-events: none;
-    z-index: 1;
-    font-size: 1rem;
-    cursor: pointer; }
-  .selectWrap select {
-    -webkit-appearance: none;
-    background: #fff;
-    color: #031545;
-    font-size: 1rem;
-    font-weight: 800; }
-
-.fieldIcon {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 14px 13px 14px 12px;
-  background: #fff;
-  color: #575757;
-  pointer-events: none;
-  z-index: 1;
-  font-size: 1.2rem;
-  cursor: pointer; }
-
-/*
-.creditCardLarge {
-	width: 100%;
-}
-*/
-select {
-  /*-moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
-  background: transparent;
-  -webkit-user-select: none;
-  -moz-user-select: -moz-none;
-  -ms-user-select: none;
-  user-select: none;*/
-  padding: 12px 15px 12px 12px;
-  font-size: 1.2rem;
-  width: 100%;
-  color: #575757;
-  outline: none;
-  border: none;
-  background: #fff;
-  cursor: pointer; }
-
-.first {
-  line-height: 140%; }
-
-option {
-  font-weight: normal;
-  display: block;
-  white-space: pre;
-  min-height: 1.2em; }
-
 /** ///////////// - global import - end - ///////////// */
 html, body {
   height: 100%;
-  font-family: 'PT Sans', Arial, sans-serif; }
+  font-family: "PT Sans", Arial, Helvetica, sans-serif; }
 
 ul {
   list-style: none;
@@ -1173,8 +1025,7 @@ ul {
   padding: 0; }
 
 a {
-  text-decoration: none;
-  color: #031545; }
+  text-decoration: none; }
 
 body {
   background: #fff;
@@ -1205,7 +1056,7 @@ h1, h2, h3, h4, h5, h6, p, a, img {
       margin-bottom: 20px; }
       .infoWrap.smallMarg {
         margin-bottom: 10px; } }
-  .infoWrap h1, .infoWrap h2, .infoWrap h3, .infoWrap h4, .infoWrap h5, .infoWrap h6, .infoWrap p, .infoWrap a, .infoWrap img {
+  .infoWrap h1, .infoWrap h2, .infoWrap h3, .infoWrap h4, .infoWrap h5, .infoWrap h6, .infoWrap p, .infoWrap a {
     margin-bottom: 5px; }
 
 * {
@@ -1268,9 +1119,7 @@ p, li, a {
       padding: 0 20px; } }
   .mainNav .fixedWrap {
     max-width: 1200px;
-    width: 100%;
     margin: 0 auto;
-    box-sizing: border-box;
     text-align: center;
     z-index: 100;
     height: 80px; }
@@ -1287,76 +1136,74 @@ p, li, a {
       padding: 120px 0 15px; }
       @media (min-width: 840px) {
         .mainNav .fixedWrap nav {
-          z-index: 503;
+          z-index: 500;
           position: relative;
           top: 0;
           background: none;
           height: 80px;
-          width: 100%;
-          top: 0;
-          padding: 0px; } }
-      .mainNav .fixedWrap nav ul {
-        display: inline-block; }
-        @media (min-width: 840px) {
-          .mainNav .fixedWrap nav ul {
-            display: inline-block;
-            position: relative; } }
-        .mainNav .fixedWrap nav ul li {
-          display: block;
-          padding: 5px 3px; }
-          @media (min-width: 840px) {
-            .mainNav .fixedWrap nav ul li {
-              float: left;
-              padding: 0 15px; } }
-          .mainNav .fixedWrap nav ul li a {
-            padding: 5px 0px;
-            color: #fff;
-            font-size: 2rem;
-            font-weight: 400; }
-            .mainNav .fixedWrap nav ul li a .facebook {
-              fill: #fff; }
-              .mainNav .fixedWrap nav ul li a .facebook:hover {
-                fill: #f0e234; }
-              @media (min-width: 840px) {
-                .mainNav .fixedWrap nav ul li a .facebook {
-                  fill: #343434; }
-                  .mainNav .fixedWrap nav ul li a .facebook:hover {
-                    fill: #1a1919; } }
-            .mainNav .fixedWrap nav ul li a .twitter {
-              fill: #fff; }
-              .mainNav .fixedWrap nav ul li a .twitter:hover {
-                fill: #f0e234; }
-              @media (min-width: 840px) {
-                .mainNav .fixedWrap nav ul li a .twitter {
-                  fill: #343434; }
-                  .mainNav .fixedWrap nav ul li a .twitter:hover {
-                    fill: #1a1919; } }
-            .mainNav .fixedWrap nav ul li a:hover {
-              color: #f0e234; }
-            @media (min-width: 840px) {
-              .mainNav .fixedWrap nav ul li a {
-                padding: 5px 0px;
-                color: #1a1919;
-                font-size: 1.2rem;
-                font-weight: 800; }
-                .mainNav .fixedWrap nav ul li a:hover {
-                  color: #1a1919;
-                  border-bottom: 2px solid #1a1919; }
-                .mainNav .fixedWrap nav ul li a.selected {
-                  border-bottom: 2px solid #1a1919; } }
-            .mainNav .fixedWrap nav ul li a img {
-              margin-bottom: 0; }
-      @media (min-width: 840px) {
-        .mainNav .fixedWrap nav {
+          padding: 0px;
           display: table-cell;
           vertical-align: middle;
           text-align: right; } }
+
+.header-nav ul {
+  display: inline-block; }
+  .header-nav ul li {
+    display: block;
+    padding: 5px 3px; }
+    @media (min-width: 840px) {
+      .header-nav ul li {
+        float: left;
+        padding: 0 15px; } }
+    .header-nav ul li a {
+      padding: 5px 0px;
+      color: #fff;
+      font-size: 2rem;
+      font-weight: 400; }
+      .header-nav ul li a .facebook {
+        fill: #fff; }
+        .header-nav ul li a .facebook:hover {
+          fill: #f0e234; }
+        @media (min-width: 840px) {
+          .header-nav ul li a .facebook {
+            fill: #343434; }
+            .header-nav ul li a .facebook:hover {
+              fill: #1a1919; } }
+      .header-nav ul li a .twitter {
+        fill: #fff; }
+        .header-nav ul li a .twitter:hover {
+          fill: #f0e234; }
+        @media (min-width: 840px) {
+          .header-nav ul li a .twitter {
+            fill: #343434; }
+            .header-nav ul li a .twitter:hover {
+              fill: #1a1919; } }
+      .header-nav ul li a:hover {
+        color: #f0e234; }
+      @media (min-width: 840px) {
+        .header-nav ul li a {
+          padding: 5px 0px;
+          color: #1a1919;
+          font-size: 1.2rem;
+          font-weight: 800; }
+          .header-nav ul li a:hover {
+            color: #1a1919;
+            border-bottom: 2px solid #1a1919; }
+          .header-nav ul li a.selected {
+            border-bottom: 2px solid #1a1919; } }
+      .header-nav ul li a img {
+        margin-bottom: 0; }
 
 .brandLogo {
   background: #f0e234;
   height: 80px;
   position: relative;
   z-index: 501; }
+  @media (min-width: 840px) {
+    .brandLogo {
+      display: table-cell;
+      vertical-align: middle;
+      height: 80px; } }
   .brandLogo .logo {
     display: block;
     width: 160px;
@@ -1372,11 +1219,6 @@ p, li, a {
         .brandLogo .logo img {
           max-width: 160px;
           margin: 15px auto 10px; } }
-  @media (min-width: 840px) {
-    .brandLogo {
-      display: table-cell;
-      vertical-align: middle;
-      height: 80px; } }
 
 /*mobile nav burger*/
 .navTrigger {

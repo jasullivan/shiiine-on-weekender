@@ -1,10 +1,10 @@
 
 /** ///////////// - global import - start - ///////////// */
-@import 'fonts', 'mixins', 'variables', 'grid', 'style', 'form';
+@import 'fonts', 'mixins', 'variables', 'grid', 'style';
 /** ///////////// - global import - end - ///////////// */
 html, body {
 	height: 100%;
-	font-family: 'PT Sans', Arial, sans-serif;
+	font-family: $ptSans;
 }
 
 ul {
@@ -15,7 +15,7 @@ ul {
 }
 a {
   text-decoration: none;
-  color: $darkBlue;
+  // color: $darkBlue;
 }
 body {
   background: $white;
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6, p, a, img {
 	    margin-bottom: 10px;
     }
   }
-  h1, h2, h3, h4, h5, h6, p, a, img  {
+  h1, h2, h3, h4, h5, h6, p, a {
     margin-bottom: 5px;
   }
 }
@@ -63,9 +63,8 @@ h1, h2, h3, h4, h5, h6, p, a, img {
 .innerWrap {
   	padding: 0 15px;
 }
-
 .pad {
-	padding: 60px 0 0; 
+	padding: 60px 0 0;
 }
 
 
@@ -78,7 +77,6 @@ h5 {font-size: 1.6rem;}
 p, li, a {
 	font-size: 1rem;
 }
-
 .smallText {
   font-size: 0.9rem;
 }
@@ -108,101 +106,97 @@ p, li, a {
 	}
 	.fixedWrap {
 		max-width: 1200px;
-		width: 100%;
+		// width: 100%;
+    // box-sizing: border-box;
 		margin: 0 auto;
-	    box-sizing: border-box;
-	    text-align: center;
+    text-align: center;
 		z-index: 100;
 		height: 80px;
 		nav {
+			// mobile dropdown menu
 			display: inline-block;
 			position: fixed;
 			height: 100%;
 			width: 100%;
 			left: 0;
-		    z-index: 1;
-		    top: -200%;
+	    z-index: 1;
+	    top: -200%;
 			background: $darkGrey;
-		    box-sizing: border-box;
-		    padding: 120px 0 15px;
+	    box-sizing: border-box;
+	    padding: 120px 0 15px;
+			// desktop menu
 			@include bp(med) {
-				z-index: 503;
+				z-index: 500;
 				position: relative;
 				top: 0;
 				background: none;
 				height: 80px;
-				width: 100%;
-			    top: 0;
-			    padding: 0px;
-			}
-			ul {
-				display: inline-block;
-				@include bp(med) {
-					display: inline-block;
-					position: relative;
-				}
-				li {
-					display: block;
-					padding: 5px 3px;
-					@include bp(med) {
-						float: left;
-						padding: 0 15px;
-					}
-					a {
-						padding: 5px 0px;
-						color: $white;
-						font-size: 2rem;
-						font-weight: 400;
-						.facebook {
-							fill:#fff;
-							&:hover {
-								fill:$yellow;
-							}
-							@include bp(med) {
-								fill:#343434;
-								&:hover {
-									fill:$darkGrey;
-								}
-							}
-						}
-						.twitter {
-							fill:#fff;
-							&:hover {
-								fill:$yellow;
-							}
-							@include bp(med) {
-								fill:#343434;
-								&:hover {
-									fill:$darkGrey;
-								}
-							}
-						}
-						&:hover {
-							color:$yellow;
-						}
-						@include bp(med) {
-							padding: 5px 0px;
-							color: $darkGrey;
-							font-size: 1.2rem;
-							font-weight: 800;
-							&:hover {
-								color:$darkGrey;
-								border-bottom: 2px solid $darkGrey;
-							}
-							&.selected {
-								border-bottom: 2px solid $darkGrey;
-							}
-						}
-						img {
-							margin-bottom: 0;
-						}
-					}
-				}
-			}
-			@include bp(med) {
+		    padding: 0px;
 				display: table-cell;
 				vertical-align: middle;
 				text-align: right;
+			}
+		}
+	}
+}
+.header-nav {
+	ul {
+		display: inline-block;
+		li {
+			display: block;
+			padding: 5px 3px;
+			@include bp(med) {
+				float: left;
+				padding: 0 15px;
+			}
+			a {
+				padding: 5px 0px;
+				color: $white;
+				font-size: 2rem;
+				font-weight: 400;
+				.facebook {
+					fill:#fff;
+					&:hover {
+						fill:$yellow;
+					}
+					@include bp(med) {
+						fill:#343434;
+						&:hover {
+							fill:$darkGrey;
+						}
+					}
+				}
+				.twitter {
+					fill:#fff;
+					&:hover {
+						fill:$yellow;
+					}
+					@include bp(med) {
+						fill:#343434;
+						&:hover {
+							fill:$darkGrey;
+						}
+					}
+				}
+				&:hover {
+					color:$yellow;
+				}
+				@include bp(med) {
+					padding: 5px 0px;
+					color: $darkGrey;
+					font-size: 1.2rem;
+					font-weight: 800;
+					&:hover {
+						color:$darkGrey;
+						border-bottom: 2px solid $darkGrey;
+					}
+					&.selected {
+						border-bottom: 2px solid $darkGrey;
+					}
+				}
+				img {
+					margin-bottom: 0;
+				}
 			}
 		}
 	}
@@ -212,12 +206,17 @@ p, li, a {
 	height: 80px;
 	position: relative;
 	z-index: 501;
+	@include bp(med) {
+		display: table-cell;
+		vertical-align: middle;
+		height: 80px;
+	}
 	.logo {
 		display: block;
-	    width: 160px;
-	    position: absolute;
-	    margin: 20px auto 0;
-	    @include bp(med) {
+    width: 160px;
+    position: absolute;
+    margin: 20px auto 0;
+    @include bp(med) {
 			margin: 0 auto 0;
 			position: relative;
 		}
@@ -229,84 +228,79 @@ p, li, a {
 			}
 		}
 	}
-	@include bp(med) {
-		display: table-cell;
-		vertical-align: middle;
-		height: 80px;
-	}
 }
 /*mobile nav burger*/
 .navTrigger {
 	display: block;
-    position: absolute;
-    top: 15px;
-    right: 5px;
-    height: 80px;
-    padding: 0 12px;
-    cursor: pointer;
-    z-index: 501;
-    @include bp(med) {
+  position: absolute;
+  top: 15px;
+  right: 5px;
+  height: 80px;
+  padding: 0 12px;
+  cursor: pointer;
+  z-index: 501;
+  @include bp(med) {
 		display: none;
 	}
 	.bar {
 		position: relative;
-	    -webkit-transform: translateY(20px);
-	    -ms-transform: translateY(20px);
-	    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+    background: $black;
+    transition: all 0ms 300ms;
+
+    border-radius: 10px;
+    width: 35px;
+    height: 5px;
+    &.cross {
+	    background: rgba(255,255,255,0);
+	    &:after {
+		    top: 0;
+			transform: rotate(45deg);
+			transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+	    }
+	    &:before {
+		    bottom: 0;
+			transform: rotate(-45deg);
+			transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+	    }
+    }
+    &:before {
+		content: "";
+	    position: absolute;
+	    left: 0;
 	    background: $black;
-	    transition: all 0ms 300ms;
 
 	    border-radius: 10px;
 	    width: 35px;
 	    height: 5px;
-	    &.cross {
-		    background: rgba(255,255,255,0);
-		    &:after {
-			    top: 0;
-				transform: rotate(45deg);
-				transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
-		    }
-		    &:before {
-			    bottom: 0;
-				transform: rotate(-45deg);
-				transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
-		    }
-	    }
-	    &:before {
-			content: "";
-		    position: absolute;
-		    left: 0;
-		    background: $black;
 
-		    border-radius: 10px;
-		    width: 35px;
-		    height: 5px;
+	    bottom: 12px;
+	    transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
+	    -webkit-transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+	    transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
+	    transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    &:after {
+		content: "";
+		position: absolute;
+		left: 0;
+		background: $black;
 
-		    bottom: 12px;
-		    transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
-		    -webkit-transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
-		    transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
-		    transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
-	    }
-	    &:after {
-			content: "";
-			position: absolute;
-			left: 0;
-			background: $black;
+		border-radius: 10px;
+		width: 35px;
+		height: 5px;
 
-			border-radius: 10px;
-			width: 35px;
-			height: 5px;
-
-			top: 12px;
-		    transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
-		    -webkit-transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
-		    transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
-		    transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
-	    }
+		top: 12px;
+	    transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
+	    -webkit-transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+	    transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
+	    transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
 	}
 }
-/*mobile nav ends*/		
+/*mobile nav ends*/
 /*************************
 	header ends
 *************************/
@@ -331,43 +325,43 @@ p, li, a {
 		}
 		form {
 			text-align: center;
-		    padding: 0;
-		    font-size: 1rem;
+	    padding: 0;
+	    font-size: 1rem;
+	    margin: 0 auto;
+	    input {
+		    height: 40px;
+		    max-width: 300px;
+		    width: 100%;
+		    padding: 0 15px;
 		    margin: 0 auto;
-		    input {
-			    height: 40px;
-			    max-width: 300px;
-			    width: 100%;
-			    padding: 0 15px;
-			    margin: 0 auto;
-			    border: none;
-			    border-radius: 0;
-			    text-align: center;
-			    @include bp(sml) {
-			    	float: left;
+		    border: none;
+		    border-radius: 0;
+		    text-align: center;
+		    @include bp(sml) {
+			    float: left;
 					width: 300px;
 					margin-right: 5px;
 					text-align: left;
 				}
-		    }
-		    .main-btn {
-			    margin-top: 0px;
-			    width: 280px;
-			    @include bp(sml) {
+	    }
+	    .main-btn {
+		    margin-top: 0px;
+		    width: 280px;
+		    @include bp(sml) {
 					width:150px;
 				}
-		    }
-		    span {
-			    position: absolute;
-			    bottom:14px;
-			    right:80px;
-			    font-size: 0.8rem;
-			    color:$darkGrey;
-			    @include bp(sml) {
-				    top:14px;
+	    }
+	    span {
+		    position: absolute;
+		    bottom:14px;
+		    right:80px;
+		    font-size: 0.8rem;
+		    color:$darkGrey;
+		    @include bp(sml) {
+			    top:14px;
 					right:20px;
-			    }
 		    }
+	    }
 		}
 	}
 	.socialLink {
@@ -376,7 +370,7 @@ p, li, a {
 			color: $white;
 			span {
 				svg {
-				vertical-align: top;
+					vertical-align: top;
 				}
 			}
 			p {
